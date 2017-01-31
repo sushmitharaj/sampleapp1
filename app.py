@@ -40,6 +40,8 @@ def processRequest(req):
         if name == "IBM":
             if day == "today":
                 return data["users"]["today"]["IBM"]
+            if day == "tomorrow":
+                return data["users"]["tomorrow"]["IBM"]
             return data["sorry"]
         if name == "mercedes":
             return data["users"]["mercedes"]
