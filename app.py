@@ -39,12 +39,28 @@ def processRequest(req):
         day = req.get("result").get("parameters").get("day")
         if name == "IBM":
             if day == "today":
-                return data["users"]["today"]["IBM"]
+                return data["today"]["IBM"]
+            if day == "tomorrow":
+                return data["tomorrow"]["IBM"]
+            if day == "yesterday":
+                return data["yesterday"]["IBM"]
             return data["sorry"]
-        if name == "mercedes":
-            return data["users"]["mercedes"]
-        if name == "oneorigin":
-            return data["users"]["oneorigin"]
+        if name == "walmart":
+             if day == "today":
+                return data["today"]["mercedes"]
+            if day == "tomorrow":
+                return data["tomorrow"]["mercedes"]
+            if day == "yesterday":
+                return data["yesterday"]["mercedes"]
+            return data["sorry"]
+        if name == "Ford ":
+            if day == "today":
+                return data["today"]["Ford"]
+            if day == "tomorrow":
+                return data["tomorrow"]["Ford"]
+            if day == "yesterday":
+                return data["yesterday"]["Ford"]
+            return data["sorry"]
     return data["sorry"]
 
 if __name__ == '__main__':

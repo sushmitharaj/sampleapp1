@@ -1,24 +1,49 @@
-{  
-   "users":{
-   	"today":{
-   		"IBM":{  
-         "speech":"Azhar is Senior Software developer for Mobile development",
-         "displayText":"text..."
-     	 }
-      },  
-      
-      "mercedes":{  
-         "speech":"Arathi is a Drupal Enigneer",
-         "displayText":"text..."
+{
+    "today": {
+      "IBM": {
+        "speech": "Hello welcome to smartshares.. Current IBM stock price is 173 USD",
+        "displayText": "Hello welcome to smartshares.. Current IBM stock price is 173 USD"
       },
-      "oneorigin":{  
-         "speech":"Mahesh is an iOS developer",
-         "displayText":"text..."
+      "walmart": {
+        "speech": "Hello welcome to smartshares.. Current walmart stock price is 66 USD",
+        "displayText": "Hello welcome to smartshares.. Current walmart stock price is 66 USD"
+      },
+      "Ford ": {
+        "speech": "Hello welcome to smartshares.. Current Ford stock price is 12 USD",
+        "displayText": "Hello welcome to smartshares.. Current Ford stock price is 12 USD"
       }
-   },
-   "sorry":{  
-      "speech":"Sorry, I don't think the service understood that!",
-      "displayText":"text..."
-   },
-   "source":"test-my-api-ai"
+    },
+    "tomorrow": {
+        "IBM": {
+        "speech": "Hello welcome to smartshares.. Current IBM stock price is 170 USD",
+        "displayText": "Hello welcome to smartshares.. Current IBM stock price is 173 USD"
+      },
+      "walmart": {
+        "speech": "Hello welcome to smartshares.. Current walmart stock price is 60 USD",
+        "displayText": "Hello welcome to smartshares.. Current walmart stock price is 66 USD"
+      },
+      "Ford ": {
+        "speech": "Hello welcome to smartshares.. Current Ford stock price is 10 USD",
+        "displayText": "Hello welcome to smartshares.. Current Ford stock price is 12 USD"
+      }
+    },
+    "yesterday": {
+        "IBM": {
+        "speech": "Hello welcome to smartshares.. Current IBM stock price is 175 USD",
+        "displayText": "Hello welcome to smartshares.. Current IBM stock price is 173 USD"
+      },
+      "walmart": {
+        "speech": "Hello welcome to smartshares.. Current walmart stock price is 65 USD",
+        "displayText": "Hello welcome to smartshares.. Current walmart stock price is 66 USD"
+      },
+      "Ford ": {
+        "speech": "Hello welcome to smartshares.. Current Ford stock price is 15 USD",
+        "displayText": "Hello welcome to smartshares.. Current Ford stock price is 12 USD"
+      }
+    },
+    "sorry": {
+      "speech": "Sorry, I don't think the service understood that!",
+      "displayText": "Sorry, I don't think the service understood that!"
+    },
+    "source": "test-my-api-ai"
 }
