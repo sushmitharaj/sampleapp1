@@ -34,21 +34,15 @@ def processRequest(req):
     with open('data.json') as data_file:
         data = json.load(data_file)
     
-    if req.get("result").get("action") == "greet":
-        return data["greet"][0]
-    if req.get("result").get("action") == "course.search":
-        return data["course"]
-    if req.get("result").get("action") == "semester.search":
-        return data["semester"]
-    if req.get("result").get("action") == "employee.search":
-        employee = req.get("result").get("parameters").get("employee")
+    if req.get("result").get("action") == "stockrate":
+        name = req.get("result").get("parameters").get("name")
         
-        if employee == "azhar":
-            return data["users"]["azhar"]
-        if employee == "arathi":
-            return data["users"]["arathi"]
-        if employee == "mahesh":
-            return data["users"]["mahesh"]
+        if name == "IBM":
+            return data["users"]["IBM"]
+        if name == "mercedes":
+            return data["users"]["mercedes"]
+        if name == "oneorigin":
+            return data["users"]["oneorigin"]
     return data["sorry"]
 
 if __name__ == '__main__':

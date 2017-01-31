@@ -1,28 +1,14 @@
 {  
-   "greet":[  
-      {  
-         "speech":"Hi there. Hope you've a good time enjoying the app!",
-         "displayText":"text..."
-      }
-   ],
-   "course":{  
-      "speech":"Here's the list of courses for you : EED 123, ABC 345, TTT 789",
-      "displayText":"text..."
-   },
-   "semester":{  
-      "speech":"Here's the list of Semesters for you : Fall, Spring, Summer",
-      "displayText":"text..."
-   },
    "users":{  
-      "azhar":{  
+      "IBM":{  
          "speech":"Azhar is Senior Software developer for Mobile development",
          "displayText":"text..."
       },
-      "arathi":{  
+      "mercedes":{  
          "speech":"Arathi is a Drupal Enigneer",
          "displayText":"text..."
       },
-      "mahesh":{  
+      "oneorigin":{  
          "speech":"Mahesh is an iOS developer",
          "displayText":"text..."
       }
