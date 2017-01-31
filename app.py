@@ -47,11 +47,11 @@ def processRequest(req):
             return data["sorry"]
         if name == "walmart":
              if day == "today":
-                return data["today"]["mercedes"]
+                return data["today"]["walmart"]
             if day == "tomorrow":
-                return data["tomorrow"]["mercedes"]
+                return data["tomorrow"]["walmart"]
             if day == "yesterday":
-                return data["yesterday"]["mercedes"]
+                return data["yesterday"]["walmart"]
             return data["sorry"]
         if name == "Ford ":
             if day == "today":
