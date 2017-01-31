@@ -2,30 +2,30 @@
    "users":{
    		"today":{  
 	      "IBM":{  
-	         "speech":"Azhar is Senior Software developer for Mobile development",
-	         "displayText":"text..."
+	         "speech":"Hi welcome to smartshares! Current IBM shares price  is 176 USD",
+	         "displayText":"Hi welcome to smartshares! Current IBM shares price  is 176 USD"
 	      },
 	      "walmart":{  
-	         "speech":"Arathi is a Drupal Enigneer",
-	         "displayText":"text..."
+	         "speech":"Hi welcome to smartshares! Current walmart shares price  is 66 USD",
+	         "displayText":"Hi welcome to smartshares! Current walmart shares price  is 66 USD"
 	      },
 	      "ford":{  
-	         "speech":"Mahesh is an iOS developer",
-	         "displayText":"text..."
+	         "speech":"Hi welcome to smartshares! Current ford shares price  is 17 USD",
+	         "displayText":"Hi welcome to smartshares! Current ford shares price  is 17 USD"
 	      }
 	    },
 	   "tomorrow":{
 	   		"IBM":{  
-	         "speech":"oh Azhar is Senior Software developer for Mobile development",
+	         "speech":"Hi welcome to smartshares! Walmart shares price was 170 USD",
 	         "displayText":"text..."
 	      },
 	      "walmart":{  
-	         "speech":"oh Arathi is a Drupal Enigneer",
-	         "displayText":"text..."
+	         "speech":"Hi welcome to smartshares! Current walmart shares price  is 60 USD",
+	         "displayText":"Hi welcome to smartshares! Current walmart shares price  is 60 USD"
 	      },
 	      "ford":{  
-	         "speech":"oh Mahesh is an iOS developer",
-	         "displayText":"text..."
+	         "speech":"Hi welcome to smartshares! Current ford shares price  is 10 USD",
+	         "displayText":"Hi welcome to smartshares! Current ford shares price  is 10 USD"
 	      }
 	   }
    },
