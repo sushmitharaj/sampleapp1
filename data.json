@@ -5,11 +5,11 @@
 	         "speech":"Azhar is Senior Software developer for Mobile development",
 	         "displayText":"text..."
 	      },
-	      "mercedes":{  
+	      "walmart":{  
 	         "speech":"Arathi is a Drupal Enigneer",
 	         "displayText":"text..."
 	      },
-	      "oneorigin":{  
+	      "ford":{  
 	         "speech":"Mahesh is an iOS developer",
 	         "displayText":"text..."
 	      }
@@ -19,11 +19,11 @@
 	         "speech":"oh Azhar is Senior Software developer for Mobile development",
 	         "displayText":"text..."
 	      },
-	      "mercedes":{  
+	      "walmart":{  
 	         "speech":"oh Arathi is a Drupal Enigneer",
 	         "displayText":"text..."
 	      },
-	      "oneorigin":{  
+	      "ford":{  
 	         "speech":"oh Mahesh is an iOS developer",
 	         "displayText":"text..."
 	      }

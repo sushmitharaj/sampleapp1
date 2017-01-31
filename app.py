@@ -43,10 +43,18 @@ def processRequest(req):
             if day == "tomorrow":
                 return data["users"]["tomorrow"]["IBM"]
             return data["sorry"]
-        if name == "mercedes":
-            return data["users"]["mercedes"]
-        if name == "oneorigin":
-            return data["users"]["oneorigin"]
+        if name == "walmart":
+            if day == "today":
+                return data["users"]["today"]["walmart"]
+            if day == "tomorrow":
+                return data["users"]["tomorrow"]["walmart"]
+            return data["sorry"]
+        if name == "ford":
+            if day == "today":
+                return data["users"]["today"]["ford"]
+            if day == "tomorrow":
+                return data["users"]["tomorrow"]["ford"]
+            return data["sorry"]
     return data["sorry"]
 
 if __name__ == '__main__':
