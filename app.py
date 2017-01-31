@@ -39,27 +39,27 @@ def processRequest(req):
         day = req.get("result").get("parameters").get("day")
         if name == "IBM":
             if day == "today":
-                return data["today"]["IBM"]
+                return data["stocks"]["today"]["IBM"]
             if day == "tomorrow":
-                return data["tomorrow"]["IBM"]
+                return data["stocks"]["tomorrow"]["IBM"]
             if day == "yesterday":
-                return data["yesterday"]["IBM"]
+                return data["stocks"]["yesterday"]["IBM"]
             return data["sorry"]
         if name == "walmart":
              if day == "today":
-                return data["today"]["walmart"]
+                return data["stocks"]["today"]["walmart"]
             if day == "tomorrow":
-                return data["tomorrow"]["walmart"]
+                return data["stocks"]["tomorrow"]["walmart"]
             if day == "yesterday":
-                return data["yesterday"]["walmart"]
+                return data["stocks"]["yesterday"]["walmart"]
             return data["sorry"]
         if name == "Ford ":
             if day == "today":
-                return data["today"]["Ford"]
+                return data["stocks"]["today"]["Ford"]
             if day == "tomorrow":
-                return data["tomorrow"]["Ford"]
+                return data["stocks"]["tomorrow"]["Ford"]
             if day == "yesterday":
-                return data["yesterday"]["Ford"]
+                return data["stocks"]["yesterday"]["Ford"]
             return data["sorry"]
     return data["sorry"]
 
