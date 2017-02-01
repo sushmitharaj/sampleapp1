@@ -1,37 +1,40 @@
-{  
-   "users":{
-   		"today":{  
-	      "IBM":{  
-	         "speech":"Hi welcome to smartshares! Current IBM stock price  is 176 USD",
-	         "displayText":"Hi welcome to smartshares! Current IBM stock price  is 176 USD"
-	      },
-	      "walmart":{  
-	         "speech":"Hi welcome to smartshares! Current walmart stock price  is 66 USD",
-	         "displayText":"Hi welcome to smartshares! Current walmart stock price  is 66 USD"
-	      },
-	      "ford":{  
-	         "speech":"Hi welcome to smartshares! Current ford stock price  is 17 USD",
-	         "displayText":"Hi welcome to smartshares! Current ford stock price  is 17 USD"
-	      }
-	    },
-	   "tomorrow":{
-	   		"IBM":{  
-	         "speech":"Hi welcome to smartshares! Walmart stock price was 170 USD",
-	         "displayText":"text..."
-	      },
-	      "walmart":{  
-	         "speech":"Hi welcome to smartshares! Current walmart stock price  is 60 USD",
-	         "displayText":"Hi welcome to smartshares! Current walmart stock price  is 60 USD"
-	      },
-	      "ford":{  
-	         "speech":"Hi welcome to smartshares! Current ford stock price  is 10 USD",
-	         "displayText":"Hi welcome to smartshares! Current ford stock price  is 10 USD"
-	      }
-	   }
-   },
-   "sorry":{  
-      "speech":"Sorry, I don't think the service understood that!",
-      "displayText":"text..."
-   },
-   "source":"test-my-api-ai"
+{
+  "users": {
+    "today": {
+      "IBM": {
+        "speech": "Hi welcome to smartshares! Current IBM stock price  is 176 USD",
+        "displayText": "Hi welcome to smartshares! Current IBM stock price  is 176 USD"
+      },
+      "walmart": {
+        "speech": "Hi welcome to smartshares! Current walmart stock price  is 66 USD",
+        "displayText": "Hi welcome to smartshares! Current walmart stock price  is 66 USD"
+      },
+      "ford": {
+        "speech": "Hi welcome to smartshares! Current ford stock price  is 17 USD",
+        "displayText": "Hi welcome to smartshares! Current ford stock price  is 17 USD"
+      }
+    },
+    "tomorrow": {
+      "IBM": {
+        "speech": "Hi welcome to smartshares! Walmart stock price was 170 USD",
+        "displayText": "text..."
+      },
+      "walmart": {
+        "speech": "Hi welcome to smartshares! Current walmart stock price  is 60 USD",
+        "displayText": "Hi welcome to smartshares! Current walmart stock price  is 60 USD"
+      },
+      "ford": {
+        "speech": "Hi welcome to smartshares! Current ford stock price  is 10 USD",
+        "displayText": "Hi welcome to smartshares! Current ford stock price  is 10 USD"
+      }
+    }
+  },
+  "sorry": {
+    "speech": "Sorry, I don't think the service understood that!",
+    "displayText": "text..."
+  },
+  "userdata": {
+    "speech": "Hi.. you own IBM, ford and Chevron"
+  },
+  "source": "test-my-api-ai"
 }

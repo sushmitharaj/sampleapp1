@@ -37,6 +37,7 @@ def processRequest(req):
     if req.get("result").get("action") == "stockrate":
         name = req.get("result").get("parameters").get("name")
         day = req.get("result").get("parameters").get("day")
+        userdata = req.get("result").get("parameters").get("userData")
         if name == "IBM":
             if day == "today":
                 return data["users"]["today"]["IBM"]
@@ -55,6 +56,9 @@ def processRequest(req):
             if day == "tomorrow":
                 return data["users"]["tomorrow"]["ford"]
             return data["sorry"]
+        if userdata == "i hold":
+            return data["userdata"]
+        return data["sorry"]
     return data["sorry"]
 
 if __name__ == '__main__':
