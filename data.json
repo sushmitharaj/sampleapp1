@@ -16,16 +16,30 @@
     },
     "tomorrow": {
       "IBM": {
-        "speech": "Hi welcome to smartshares! Walmart stock price was 170 USD",
-        "displayText": "text..."
+        "speech": "Hi welcome to smartshares! IBM stocks price around 170 USD",
+        "displayText": "Hi welcome to smartshares! IBM stocks price around 170 USD"
       },
       "walmart": {
-        "speech": "Hi welcome to smartshares! Current walmart stock price  is 60 USD",
-        "displayText": "Hi welcome to smartshares! Current walmart stock price  is 60 USD"
+        "speech": "Hi welcome to smartshares! walmart stocks price around 60 USD",
+        "displayText": "Hi welcome to smartshares! walmart stocks price around 60 USD"
       },
       "ford": {
-        "speech": "Hi welcome to smartshares! Current ford stock price  is 10 USD",
-        "displayText": "Hi welcome to smartshares! Current ford stock price  is 10 USD"
+        "speech": "Hi welcome to smartshares! ford stocks price around 10 USD",
+        "displayText": "Hi welcome to smartshares! ford stocks price around 10 USD"
+      }
+    },
+    "yesterday": {
+      "IBM": {
+        "speech": "Hi welcome to smartshares! IBM stock price was 160 USD",
+        "displayText": "Hi welcome to smartshares! IBM stock price was 160 USD"
+      },
+      "walmart": {
+        "speech": "Hi welcome to smartshares! walmart stock price was 50 USD",
+        "displayText": "Hi welcome to smartshares! walmart stock price was 50 USD"
+      },
+      "ford": {
+        "speech": "Hi welcome to smartshares! ford stock price was 13 USD",
+        "displayText": "Hi welcome to smartshares! ford stock price was 13 USD"
       }
     }
   },
