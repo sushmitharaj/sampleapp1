@@ -34,7 +34,8 @@
     "displayText": "text..."
   },
   "userdata": {
-    "speech": "Hi.. you own IBM, ford and Chevron"
+    "speech": "Hi.. you own IBM, ford and Chevron",
+    "displayText": "Hi.. you own IBM, ford and Chevron"
   },
   "source": "test-my-api-ai"
 }
