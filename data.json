@@ -14,20 +14,6 @@
         "displayText": "Hi welcome to smartshares! Current ford stock price  is 17 USD"
       }
     },
-    "tomorrow": {
-      "IBM": {
-        "speech": "Hi welcome to smartshares! IBM stocks price around 170 USD",
-        "displayText": "Hi welcome to smartshares! IBM stocks price around 170 USD"
-      },
-      "walmart": {
-        "speech": "Hi welcome to smartshares! walmart stocks price around 60 USD",
-        "displayText": "Hi welcome to smartshares! walmart stocks price around 60 USD"
-      },
-      "ford": {
-        "speech": "Hi welcome to smartshares! ford stocks price around 10 USD",
-        "displayText": "Hi welcome to smartshares! ford stocks price around 10 USD"
-      }
-    },
     "yesterday": {
       "IBM": {
         "speech": "Hi welcome to smartshares! IBM stock price was 160 USD",

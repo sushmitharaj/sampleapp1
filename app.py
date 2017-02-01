@@ -40,24 +40,18 @@ def processRequest(req):
         if name == "IBM":
             if day == "today":
                 return data["users"]["today"]["IBM"]
-            if day == "tomorrow":
-                return data["users"]["tomorrow"]["IBM"]
             if day == "yesterday":
                 return data["users"]["yesterday"]["IBM"]
             return data["sorry"]
         if name == "walmart":
             if day == "today":
                 return data["users"]["today"]["walmart"]
-            if day == "tomorrow":
-                return data["users"]["tomorrow"]["walmart"]
             if day == "yesterday":
                 return data["users"]["yesterday"]["walmart"]
             return data["sorry"]
         if name == "ford":
             if day == "today":
                 return data["users"]["today"]["ford"]
-            if day == "tomorrow":
-                return data["users"]["tomorrow"]["ford"]
             if day == "yesterday":
                 return data["users"]["yesterday"]["ford"]
             return data["sorry"]
