@@ -42,18 +42,24 @@ def processRequest(req):
                 return data["users"]["today"]["IBM"]
             if day == "yesterday":
                 return data["users"]["yesterday"]["IBM"]
+            if day == "all":
+                return data["users"]["all"]["IBM"]
             return data["sorry"]
         if name == "walmart":
             if day == "today":
                 return data["users"]["today"]["walmart"]
             if day == "yesterday":
                 return data["users"]["yesterday"]["walmart"]
+            if day == "all":
+                return data["users"]["all"]["walmart"]
             return data["sorry"]
         if name == "ford":
             if day == "today":
                 return data["users"]["today"]["ford"]
             if day == "yesterday":
                 return data["users"]["yesterday"]["ford"]
+            if day == "all":
+                return data["users"]["all"]["ford"]
             return data["sorry"]
     if req.get("result").get("action") == "userdata":
         return data["userdata"]

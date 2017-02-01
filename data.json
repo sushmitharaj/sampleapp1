@@ -27,6 +27,20 @@
         "speech": "Hi welcome to smartshares! ford stock price was 13 USD",
         "displayText": "Hi welcome to smartshares! ford stock price was 13 USD"
       }
+    },
+    "all": {
+      "IBM": {
+        "speech": "IBM stock rate: yesterday= 160 USD, Today= 176 USD",
+        "displayText": "IBM stock rate: yesterday= 160 USD, Today= 176 USD"
+      },
+      "walmart": {
+        "speech": "walmart stock rate: yesterday= 50 USD, Today= 66 USD",
+        "displayText": "walmart stock rate: yesterday= 50 USD, Today= 66 USD"
+      },
+      "ford": {
+        "speech": "walmart stock rate: yesterday= 13 USD, Today= 17 USD",
+        "displayText": "walmart stock rate: yesterday= 13 USD, Today= 17 USD"
+      }
     }
   },
   "sorry": {
