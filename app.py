@@ -57,7 +57,7 @@ def processRequest(req):
             return data["sorry"]
     if req.get("result").get("action") == "userdata":
         userdata = req.get("result").get("parameters").get("userdata")
-        if userdata == "i own":
+        if userdata == "":
             return data["userdata"]
         return data["sorry"]
     return data["sorry"]
