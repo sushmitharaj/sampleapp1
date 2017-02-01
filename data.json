@@ -38,8 +38,8 @@
         "displayText": "walmart stock rate: yesterday= 50 USD, Today= 66 USD"
       },
       "ford": {
-        "speech": "walmart stock rate: yesterday= 13 USD, Today= 17 USD",
-        "displayText": "walmart stock rate: yesterday= 13 USD, Today= 17 USD"
+        "speech": "ford stock rate: yesterday= 13 USD, Today= 17 USD",
+        "displayText": "ford stock rate: yesterday= 13 USD, Today= 17 USD"
       }
     }
   },
