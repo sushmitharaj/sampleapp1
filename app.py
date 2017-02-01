@@ -56,6 +56,7 @@ def processRequest(req):
             if day == "tomorrow":
                 return data["users"]["tomorrow"]["ford"]
             return data["sorry"]
+    if req.get("result").get("action") == "userdata":
         if userdata == "i hold":
             return data["userdata"]
         return data["sorry"]
