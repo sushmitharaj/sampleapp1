@@ -56,10 +56,7 @@ def processRequest(req):
                 return data["users"]["tomorrow"]["ford"]
             return data["sorry"]
     if req.get("result").get("action") == "userdata":
-        userdata = req.get("result").get("parameters").get("userdata")
-        if userdata == "":
-            return data["userdata"]
-        return data["sorry"]
+        return data["userdata"]
     return data["sorry"]
 
 if __name__ == '__main__':
